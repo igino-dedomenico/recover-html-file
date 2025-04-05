@@ -14,18 +14,15 @@ A powerful and customizable Python script to **backup and replace HTML files in 
 - 🛡 Prevents accidental loss during migration or refactoring.
 
 ---
-
 ## 📁 Folder Structure
-
+```
 project-root/
-│
 ├── angular-project/         # Your original Angular project (source)
 ├── backup-html/             # Folder where backups of .html files are stored
 ├── bootstrap5-html/         # Folder where updated HTML files are placed
 ├── structure.json           # Map of original file paths for replacement
 └── html_file_migrator.py    # This script
----
-
+```
 ## ⚙️ Configuration
 
 In `html_file_migrator.py`, you can configure these variables:
